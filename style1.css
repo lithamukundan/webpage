@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+header{
+	background-image: url(../img14.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+	background-size: 100% 100%;
+
+}
+ul{
+	float: right;
+	margin-top: 25px;
+}
+ul li{
+
+	display: inline-block;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 2px;
+
+	
+	
+
+}
+ul li a:hover{
+	background color: #fff;
+	color: #000;
+	
+
+}
+ul li.active a{
+	background color: white;
+	color: #000;
+
+}
+.logo img{
+	
+	 background-color: ash;
+	 opacity: 0.8;
+
+	width: 250px;
+	height: auto;
+	
+}
+.logo img:hover{
+	opacity: 1;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.tile{
+	position: absolute;
+	top:60%;
+	left: 60%; 
+}
+.tile h1{
+	font-size: 70px;
+	color: #ffb6c1;
+
+}
